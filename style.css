@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.box{
+  width: 300px;
+  padding: 30px;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  text-align: center;
+  background-color: #281785;
+}
+.box input[ type= "username" ],.box input[ type= "password" ]{
+  position: center;
+  margin-bottom: 45px;
+  height: 40px;
+  width: 270px;
+  transition: 0.3s;
+  outline: none;
+  display: inline-block;
+  border-bottom: 2px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #281785;
+}
+.box input[ type= "submit" ]{
+  width: 240px;
+  height: 30px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: black;
+  border: 3px;
+  border-color: #fff;
+  display: block;
+  margin-left: 8%;
+}
+.box input[type = "username"]:focus,.box input[type = "password"]:focus{
+  width: 300px;
+}
